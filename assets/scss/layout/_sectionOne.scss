@@ -1,0 +1,11 @@
+.sectionOne{
+    font-size: $x-large;
+    color: $color-white;
+    background-color: $jelly-bean;
+    padding: 150px;
+    text-align: center;
+    @include font-weight(extra-light);
+    &--weight{
+        @include font-weight(bold);
+    }
+}

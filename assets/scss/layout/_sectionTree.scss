@@ -1,0 +1,10 @@
+.sectionTree{
+    background-color: $color-white;
+    color: $granite-gray;
+    padding: 40px;
+    &__image{
+        width: 70%;
+        display: block;
+        @include m-auto();
+    }
+}

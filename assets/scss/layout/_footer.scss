@@ -1,0 +1,9 @@
+.footer{
+    background-color: $granite-gray;
+    padding: 60px;
+    &__image{
+        width: 20%;
+        display: block;
+        @include m-auto();
+    }
+}

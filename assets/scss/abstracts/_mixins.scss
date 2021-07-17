@@ -1,0 +1,22 @@
+@mixin font-weight($weight) {
+    $weights: (
+        extra-light: 200,
+        regular: 400,
+        bold: 700
+    );
+    
+    $output: $weight;
+    @if map-has-key($weights, $weight) {
+        $output: map-get($weights, $weight);
+    }
+    
+    font-weight: $output;
+}
+
+@mixin reset-m{
+    margin: 0;
+}
+
+@mixin m-auto{
+    margin: 0 auto;
+}

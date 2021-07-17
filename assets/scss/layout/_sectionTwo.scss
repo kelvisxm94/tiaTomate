@@ -1,0 +1,19 @@
+.sectionTwo{
+    background-color: $taupe-gray;
+    color: $color-white;
+    padding: 40px;
+    &__image{
+        width: 70%;
+        display: block;
+        @include m-auto();
+    }
+}
+
+.contentParagraph{
+    width: 50%;
+    @include m-auto();
+    &__title{
+        text-align: center;
+        @include font-weight(bold);
+    }
+}

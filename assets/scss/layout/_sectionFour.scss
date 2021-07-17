@@ -1,0 +1,21 @@
+.sectionFour{
+    padding-bottom: 70px;
+    &__title{
+        font-size: $large;
+        color: $color-white;
+        background-color: $jelly-bean;
+        padding: 70px;
+        text-align: center;
+        @include reset-m();
+    }
+}
+
+.article{
+    padding: 60px 0 0;
+    color: $granite-gray;
+    &__image{
+        width: 30%;
+        display: block;
+        @include m-auto();
+    }
+}

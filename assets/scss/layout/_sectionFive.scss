@@ -1,0 +1,10 @@
+.sectionFive{
+    background-color: $jelly-bean;
+    color: $color-white;
+    padding: 40px;
+    &__title{
+        font-size: $large;
+        text-align: center;
+        @include reset-m();
+    }
+}
